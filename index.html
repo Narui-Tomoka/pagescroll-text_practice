@@ -3,16 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="#" />
+    <link rel="icon" href="src/img/varucshe_favicon.ico" />
     <title>pagescroll_text</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Noto+Sans+JP&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Noto+Sans+JP&family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -31,7 +38,7 @@
         </ul>
       </nav>
     </header>
-    <section class="section mainvisual">
+    <section class="mainvisual">
       <img
         class="mainvisual__img"
         src="src/img/main_visual_midium.png"
@@ -41,10 +48,10 @@
         <h3>pagescroll_text</h3>
         <p>PC:windows　開発環境:Vite</p>
         <p>ベンダープレフィックス付与:autoprefixer</p>
-        <p>画像：写真AC 背景画像：Figma Unsplash</p>
+        <p>画像：写真AC<br />　　　Figma Unsplash</p>
       </div>
     </section>
-    <section class="section about">
+    <section class="about">
       <div class="wrapper">
         <p class="about__lead">
           ひと踏みで応えてくれる鋭いレスポンス、<br />
@@ -52,49 +59,155 @@
           そして高速域でも安心感をもたらす確かなブレーキフィール。<br />
           扱いやすさと刺激の絶妙な均衡を追求し、<br />
           いつもの街を、何気ない移動を、歓びに変える一台へ。<br />
-          走りを愛する大人にこそふさわしい、純粋なスポーツカー体験をお届けします。
+          走りを愛する大人にこそふさわしい、純粋なドライビング体験をお届けします。
         </p>
       </div>
     </section>
-    <section class="section features">
+    <section class="features">
       <div class="wrapper">
         <ul class="features__list">
           <li class="features__item">
+            <!-- ↓表示領域の縮小 -->
             <div class="features__item__img">
-              <img src="src/img/exterior.png" alt="クルマの画像">
+              <!-- 画像自体は拡大 -->
+              <img src="src/img/exterior.png" alt="クルマの画像" />
             </div>
             <div class="features__item__text">
-              <h2 class="features__title f-orb">EXTERIOR</h2>
-              <p class="features__lead">曲線とエッジが溶け合うボディラインは、速さだけでなく“美しさ”までもデザインしたもの。
+              <!-- ↓文字が上下に動く -->
+              <h2 class="features__title">
+                <span class="line line--default f-orb">EXTERIOR</span>
+                <span class="line line--hover f-orb">EXTERIOR</span>
+              </h2>
+              <p class="features__lead">
+                曲線とエッジが溶け合うボディラインは、速さだけでなく“美しさ”までもデザインしたもの。
                 光の移ろいで表情を変える塗装は、昼も夜も街も高速も、そのときだけの艶を纏う。
-                ただ走るためではなく、眺める瞬間さえ贅沢にするエクステリアです。</p>
+                ただ走るためではなく、眺める瞬間さえ贅沢にするエクステリアです。
+              </p>
             </div>
           </li>
           <li class="features__item">
+            <!-- ↓表示領域の縮小 -->
             <div class="features__item__img">
-              <img src="src/img/sport.png" alt="クルマの画像">
+              <!-- 画像自体は拡大 -->
+              <img src="src/img/sport.png" alt="クルマの画像" />
             </div>
             <div class="features__item__text">
-              <h2 class="features__title f-orb">SPORT</h2>
-              <p class="features__lead">俊敏さ・応答性・強いグリップ感…スポーツカーの本能的な愉しさを軸にしながら、すべての動きをしなやかに統合。
-                速さの押しつけではなく、操るほどに気持ちよさが深まっていく成熟したスポーツフィール。
-                大人の感性で味わう“余裕ある刺激”が、走りの歓びをより濃密にします。</p>
+              <!-- ↓文字が上下に動く -->
+              <h2 class="features__title">
+                <span class="line line--default f-orb">SPORT</span>
+                <span class="line line--hover f-orb">SPORT</span>
+              </h2>
+              <p class="features__lead">
+                俊敏さ・応答性・強いグリップ感…スポーツカーの本能的な愉しさを軸にしながら、すべての動きをしなやかに統合。
+                操るほどに深まっていく成熟したスポーツフィール。
+                大人の感性で味わう“余裕ある刺激”が、走りの歓びをより濃密にします。
+              </p>
             </div>
           </li>
           <li class="features__item">
+            <!-- ↓表示領域の縮小 -->
             <div class="features__item__img">
-              <img src="src/img/driving.jpg" alt="クルマの画像">
+              <!-- 画像自体は拡大 -->
+              <img src="src/img/driving.jpg" alt="クルマの画像" />
             </div>
             <div class="features__item__text">
-              <h2 class="features__title f-orb">DRIVING</h2>
-              <p class="features__lead">ステアリング・ペダル・シートポジション・視界まで、ドライバーを中心にゼロから設計。
-                操作が意図どおりに決まる快感と、アクセルを踏むごとに心まで前へ引き出される高揚感。
-                マシンと自分の境界がなくなるような、純度の高いドライビング体験を届けます。</p>
+              <!-- ↓文字が上下に動く -->
+              <h2 class="features__title">
+                <span class="line line--default f-orb">DRIVING</span>
+                <span class="line line--hover f-orb">DRIVING</span>
+              </h2>
+              <p class="features__lead">
+                ステアリング・ペダル・シートポジション。全てにおいてドライバーを中心にゼロから設計。
+                操作が決まる快感と、アクセルを踏むごとに高まる高揚感。
+                マシンと自分の境界がなくなるような、純度の高いドライビングを実現しました。
+              </p>
             </div>
           </li>
         </ul>
       </div>
-      <section></section>
+    </section>
+    <section class="test-drive">
+      <h2 class="test-drive__title f-orb">TEST DRIVE</h2>
+      <img
+        class="test-drive__img"
+        src="src/img/test-drive.png"
+        alt="駐車場に停まるスポーツカー"
+      />
+      <div class="wrapper">
+        <p class="test-drive__lead">
+          次の鼓動は、運転席で。<br />体感しよう。<br /><br />
+          REVAREZ 試乗体験会 ─ あなたの感性が歓びに変わる瞬間へ。
+        </p>
+        <div class="btn">
+          <p class="btn__lead">お近くの販売店へお越しください！</p>
+          <a class="btn__link btn__trial" href="#">来店予約はこちら</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__sns">
+          <h3 class="footer__heading">公式SNS</h3>
+          <ul class="footer__sns__list">
+            <li class="footer__sns__item">
+              <a href="#"
+                ><i class="footer__sns__icon fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li class="footer__sns__item">
+              <a href="#"
+                ><i class="footer__sns__icon fa-brands fa-x-twitter"></i
+              ></a>
+            </li>
+            <li class="footer__sns__item">
+              <a href="#"
+                ><i class="footer__sns__icon fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="footer__sns__item">
+              <a href="#"
+                ><i class="footer__sns__icon fa-brands fa-youtube"></i
+              ></a>
+            </li>
+            <li class="footer__sns__item">
+              <a href="#"
+                ><i class="footer__sns__icon fa-brands fa-line"></i
+              ></a>
+            </li>
+          </ul>
+          <nav class="footer__nav">
+            <ul class="footer__nav__list">
+              <li class="footer__nav__item">
+                <h3 class="footer__heading">VARUSCHEについて</h3>
+                <a class="footer__nav__link" href="#">VARUSCHEのクルマづくり</a>
+                <a class="footer__nav__link" href="#">VARUSCHEの取り組み</a>
+              </li>
+              <li class="footer__nav__item">
+                <h3 class="footer__heading">購入関連情報</h3>
+                <a class="footer__nav__link" href="#">新車サブスク</a>
+                <a class="footer__nav__link" href="#"
+                  >VARUSCHE自動車保険プラン</a
+                >
+                <a class="footer__nav__link" href="#">VARUSCHE認定中古車</a>
+                <a class="footer__nav__link" href="#">キャンペーン</a>
+              </li>
+              <li class="footer__nav__item">
+                <h3 class="footer__heading">関連サイト</h3>
+                <a class="footer__nav__link" href="#">モータースポーツ</a>
+                <a class="footer__nav__link" href="#">バル学</a>
+              </li>
+              <li class="footer__nav__item">
+                <h3 class="footer__heading">その他</h3>
+                <a class="footer__nav__link" href="#">お問い合わせ</a>
+                <a class="footer__nav__link" href="#">よくあるご質問</a>
+                <a class="footer__nav__link" href="#">VARUSCHE ID</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <p class="footer__copy">©VARUSCHE CORPORATION</p>
+      </div>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
