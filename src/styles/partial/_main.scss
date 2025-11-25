@@ -93,11 +93,11 @@
         transform: translateY(0);
       }
       .features__item__img {
-        transform: scale(0.9);
+        transform: scale(0.95);
       }
       .features__item__img img {
         // 画像を拡大。要素そのものの大きさを大きくする
-        transform: scale(1.4);
+        transform: scale(1.2);
       }
     }
     &:nth-of-type(even) {
@@ -109,11 +109,11 @@
     &__img {
       width: 50%;
       overflow: hidden; // 画像がはみ出た部分を隠す
-      transition: transform 0.8s ease; // 表示領域縮小アニメーション
+      transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1); // 表示領域縮小アニメーション
       & img {
         display: block;
         width: 100%;
-        transition: transform 0.8s ease;
+        transition: transform 0.9s cubic-bezier(0.19, 1, 0.22, 1);
         transform-origin: center center;
         height: auto;
         object-fit: cover;
