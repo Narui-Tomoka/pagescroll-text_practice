@@ -82,7 +82,7 @@
     align-items: center; // 子要素を縦中央に寄せる
     justify-content: space-between;
     margin-bottom: 120px;
-    &:hover {
+    &.is-active {
       // カードにhoverするとspan部分が動く
       // ↓対象要素
       .line--default {
